@@ -113,11 +113,41 @@ emily@MacBook-Pro unit1-git-practice % rm -r drinks
 
 
 ### Step 4
+emily@MacBook-Pro unit1-git-practice % git init
+Initialized empty Git repository in /Users/emily/Desktop/unit1-git-practice/.git/
+emily@MacBook-Pro unit1-git-practice % git add .
+emily@MacBook-Pro unit1-git-practice % git commit -m 'first commit'
+[main (root-commit) 9913afb] first commit
+ 8 files changed, 127 insertions(+)
+ create mode 100644 my-steps.txt
+ create mode 100644 plants/carrot.txt
+ create mode 100644 plants/pea.txt
+ create mode 100644 proteins/meats/crab.txt
+ create mode 100644 proteins/tofu.txt
+ create mode 100644 sweets/donut.txt
+ create mode 100644 veggies/carrot.txt
+ create mode 100644 veggies/pea.txt
+emily@MacBook-Pro unit1-git-practice % 
 
 
 
 
 ### Step 5
+emily@MacBook-Pro unit1-git-practice % git remote add origin https://github.com/emily-dee/unit1-git-practice.git
+git branch -M main
+git push -u origin main
+Username for 'https://github.com': emily-dee
+Password for 'https://emily-dee@github.com': 
+Enumerating objects: 8, done.
+Counting objects: 100% (8/8), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (5/5), done.
+Writing objects: 100% (8/8), 1.03 KiB | 1.03 MiB/s, done.
+Total 8 (delta 0), reused 0 (delta 0), pack-reused 0
+To https://github.com/emily-dee/unit1-git-practice.git
+ * [new branch]      main -> main
+branch 'main' set up to track 'origin/main'.
+emily@MacBook-Pro unit1-git-practice % 
 
 
 ### Step 6
